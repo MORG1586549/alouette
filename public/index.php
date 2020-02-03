@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
-
+<?php
+include("../donnees.inc.php");
+include("../Alouette.php");
+?>
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/alouette.css" />
@@ -9,6 +12,7 @@
 
 <body>
 	<div id="app">
+		<?php echo Alouette::actionMembre('mangerai','le visage poilu'); ?>
 		<header>Ma ritournelle</header>
 		<footer>Intégration Web 3</footer>
 		<nav>
