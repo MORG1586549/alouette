@@ -20,7 +20,6 @@ class Alouette {
 	 */
 	static public function chanson($oiseau, $qualite, $action, $membres) {
 		$resultat = '';
-		$etats = ['appel', 'reponse'];
 		$resultat .= '<div class="chanson">';
 		foreach ($membres as $membre) {
 			$resultat .= '<div class="strophe">';
